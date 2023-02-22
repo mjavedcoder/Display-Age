@@ -11,6 +11,7 @@ function AddUser(props) {
       <label htmlFor="age">Age(Years)</label>
       <input id="age" type="number" />
       <button type="submit">Add User</button>
+      <button type="submit">Submit</button>
     </form>
   );
 }
