@@ -16,7 +16,7 @@ function AddUser(props) {
       return;
     }
     event.preventDefault();
-    console.log(typedUserName, typedAge);
+    props.onAddUser(typedUserName, typedAge);
     setTypedAge("");
     setTypedUserName("");
   };
